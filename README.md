@@ -1,13 +1,12 @@
 # Sample repo to create 1 module, use module twice and set modules in different regions
 
-This specific example creates 2 EC2 instances in eu-central-1 and eu-west-2 regions
+This specific example creates 2 EC2 instances in 2 different regions
 
-[Syntax and use case](https://developer.hashicorp.com/terraform/language/providers/configuration#alias-multiple-provider-configurations)
-
-
-# Prerequisites
+## Prerequisites
 
 Install and configure Terraform as per [official documentation](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli)
+
+[AWS credentials](https://docs.aws.amazon.com/powershell/latest/userguide/pstools-appendix-sign-up.html)
 
 # How To
 
@@ -15,7 +14,6 @@ Install and configure Terraform as per [official documentation](https://develope
 
 ```
 git clone https://github.com/dmitryuchuvatov/module-2regions.git
-
 ```
 
 ## Change folder
