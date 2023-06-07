@@ -96,6 +96,16 @@ module.server1.aws_instance.server: Creation complete after 32s [id=i-0fac707b0b
 Apply complete! Resources: 2 added, 0 changed, 0 destroyed.
 ```
 
+## Verify the results
+
+Navigate to AWS Console -> EC2 -> Instances -> select **eu-central-1** region and confirm that 1st instance is available:
+
+![Screenshot 2023-06-07 at 14 06 08](https://github.com/dmitryuchuvatov/module-2regions/assets/119931089/f9cc5ccb-9534-48c4-bc3e-fcf60ca383e7)
+
+Then, switch to **eu-west-2** region and ensure that 2nd instance is there as well:
+
+![Screenshot 2023-06-07 at 14 06 51](https://github.com/dmitryuchuvatov/module-2regions/assets/119931089/5b098d49-202b-4830-8a66-d699ea0dd011)
+
 ## Clean up
 
 ```
